@@ -1,0 +1,18 @@
+package main
+
+import "fmt"
+
+var (
+	name string
+	age  int
+)
+
+func main() {
+	lastName := "Devkota" // type interface
+	marks := 50
+	fmt.Println(lastName)
+	fmt.Println(marks)
+	hobby, phoneNum := "playing hockey", "12345"
+	fmt.Println(hobby)
+	fmt.Println(phoneNum)
+}
