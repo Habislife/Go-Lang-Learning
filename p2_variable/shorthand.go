@@ -15,4 +15,7 @@ func main() {
 	hobby, phoneNum := "playing hockey", "12345"
 	fmt.Println(hobby)
 	fmt.Println(phoneNum)
+	hobby, phoneNum = "abc", "def"
+	fmt.Println(hobby)
+	fmt.Println(phoneNum)
 }
