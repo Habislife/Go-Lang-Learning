@@ -16,5 +16,10 @@ func main() {
 		fmt.Println("Fruits: ",fruit)
 		fmt.Println("Quantity: ", quantity)
 	}
+	fruitData["watermelon"]=555
+	fmt.Println("Before",len(fruitData))
+	delete(fruitData,"bananas")
+	fmt.Println("After",len(fruitData))
+
 
 }
